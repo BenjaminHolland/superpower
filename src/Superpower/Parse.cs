@@ -316,5 +316,7 @@ namespace Superpower
         {
             return input => TokenListParserResult.Value(value, input, input);
         }
+        public static BinaryParser<T> BinaryReturn<T>(T value) =>
+            input => Binary.Result.Value(value, input, input);
     }
 }

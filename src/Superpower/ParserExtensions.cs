@@ -117,5 +117,20 @@ namespace Superpower
             var result = parser(input);
             return result.HasValue && result.Remainder.IsAtEnd;
         }
+
+        /// <summary>
+        /// Tries to parse the input without throwing an exception upon failure.
+        /// </summary>
+        /// <typeparam name="T">The type of the result.</typeparam>
+        /// <param name="parser">The parser.</param>
+        /// <param name="input">The input.</param>
+        /// <returns>The result of the parser</returns>
+        /// <exception cref="ArgumentNullException">The parser or input is null.</exception>
+        public static Result<T> TryParse<T>(this BinaryParser<T> parser, Memory<byte> input)
+        {
+            if (parser == null) throw new ArgumentNullException(nameof(parser));
+
+            return parser(new BinarySpan(input));
+        }
     }
 }

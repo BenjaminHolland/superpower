@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntCalc", "sample\IntCalc\I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTimeParser", "sample\DateTimeTextParser\DateTimeParser.csproj", "{A842DA99-4EAB-423D-B532-7902FED0D8F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParser", "sample\JsonParser\JsonParser.csproj", "{5C9AB721-559A-4617-B990-2D9EE85BEB7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonParser", "sample\JsonParser\JsonParser.csproj", "{5C9AB721-559A-4617-B990-2D9EE85BEB7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryExample", "BinaryExample\BinaryExample.csproj", "{6A5D6B77-6B77-4CAD-A553-EB9D84B5598F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{5C9AB721-559A-4617-B990-2D9EE85BEB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C9AB721-559A-4617-B990-2D9EE85BEB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C9AB721-559A-4617-B990-2D9EE85BEB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5D6B77-6B77-4CAD-A553-EB9D84B5598F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5D6B77-6B77-4CAD-A553-EB9D84B5598F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5D6B77-6B77-4CAD-A553-EB9D84B5598F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5D6B77-6B77-4CAD-A553-EB9D84B5598F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +92,7 @@ Global
 		{34BBD428-8297-484E-B771-0B72C172C264} = {7533E145-1C93-4348-A70D-E68746C5438C}
 		{A842DA99-4EAB-423D-B532-7902FED0D8F1} = {7533E145-1C93-4348-A70D-E68746C5438C}
 		{5C9AB721-559A-4617-B990-2D9EE85BEB7C} = {7533E145-1C93-4348-A70D-E68746C5438C}
+		{6A5D6B77-6B77-4CAD-A553-EB9D84B5598F} = {7533E145-1C93-4348-A70D-E68746C5438C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3941419-6499-4871-BEAA-861F4FE5D2D4}
